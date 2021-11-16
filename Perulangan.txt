@@ -1,0 +1,23 @@
+// Nama  : Virga Damayanti
+// NIM   : G50120065
+// Kelas : A (Ganjil)
+
+package alpro;
+
+import java.util.Scanner;
+
+public class perulangan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		int v;
+		System.out.print("Masukkan Nama :");
+		v = input.nextInt();
+		
+		for(int i = 8; i <= v; i++){
+			System.out.println("Virga");
+		}
+	}
+}
